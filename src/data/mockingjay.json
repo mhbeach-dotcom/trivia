@@ -7,56 +7,476 @@
     "question": "Which district, thought destroyed, is the rebels' headquarters?",
     "options": [
       "District 2",
-      "District 8",
+      "District 13",
       "District 11",
-      "District 13"
+      "District 8"
     ],
-    "answerIndex": 3,
+    "answerIndex": 1,
     "explanation": "The rebels live underground in District 13."
   },
   {
     "id": "mj-02",
     "book": "mockingjay",
     "category": "Rebellion",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Who is the president of District 13?",
     "options": [
-      "Alma Coin",
       "Plutarch Heavensbee",
-      "Paylor",
-      "Seneca Crane"
+      "Seneca Crane",
+      "Alma Coin",
+      "Paylor"
     ],
-    "answerIndex": 0,
+    "answerIndex": 2,
     "explanation": "Coin leads the rebellion and later becomes Panem's interim president."
   },
   {
     "id": "mj-03",
     "book": "mockingjay",
     "category": "Characters",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Who does Katniss shoot with an arrow at the end?",
     "options": [
       "President Snow",
+      "Haymitch",
       "Gale",
-      "President Coin",
-      "Haymitch"
+      "President Coin"
     ],
-    "answerIndex": 2,
+    "answerIndex": 3,
     "explanation": "Katniss turns on Coin instead of Snow, during Snow's planned execution."
   },
   {
     "id": "mj-04",
     "book": "mockingjay",
     "category": "Characters",
-    "difficulty": "hard",
+    "difficulty": "easy",
+    "question": "Who dies in the Capitol bombing with the parachutes?",
+    "options": [
+      "Gale",
+      "Prim",
+      "Peeta",
+      "Haymitch"
+    ],
+    "answerIndex": 1,
+    "explanation": "Prim is treating wounded children when the second bomb goes off."
+  },
+  {
+    "id": "mj-05",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What do Katniss and Peeta do after the war?",
+    "options": [
+      "They leave Panem",
+      "They live in District 13",
+      "They move to the Capitol",
+      "They marry and have two children"
+    ],
+    "answerIndex": 3,
+    "explanation": "The epilogue describes a daughter and a son."
+  },
+  {
+    "id": "mj-06",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who designed Katniss's Mockingjay uniform?",
+    "options": [
+      "Portia",
+      "Venia",
+      "Cinna",
+      "Flavius"
+    ],
+    "answerIndex": 2,
+    "explanation": "Cinna designed it before the Capitol took him."
+  },
+  {
+    "id": "mj-07",
+    "book": "mockingjay",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "What are the propaganda videos in the rebellion called?",
+    "options": [
+      "Propos",
+      "Broadcasts",
+      "Bulletins",
+      "Reels"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss stars in them as the Mockingjay."
+  },
+  {
+    "id": "mj-08",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
     "question": "What was done to Peeta in the Capitol to make him attack Katniss?",
     "options": [
       "He was hypnotized by a drug",
       "He was hijacked with tracker jacker venom",
-      "He was brainwashed with a mockingjay recording",
-      "He was given nightlock"
+      "He was given nightlock",
+      "He was brainwashed with a recording"
     ],
     "answerIndex": 1,
     "explanation": "The Capitol used hijacking to twist his memories of Katniss."
+  },
+  {
+    "id": "mj-09",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What game does Peeta use to separate real from false memories?",
+    "options": [
+      "Real or not real",
+      "Memory match",
+      "Name the name",
+      "Truth or dare"
+    ],
+    "answerIndex": 0,
+    "explanation": "He asks Katniss if something he remembers is true."
+  },
+  {
+    "id": "mj-10",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "Who becomes the new president of Panem?",
+    "options": [
+      "Paylor",
+      "Plutarch Heavensbee",
+      "Alma Coin",
+      "Beetee"
+    ],
+    "answerIndex": 0,
+    "explanation": "Paylor was a rebel leader from District 8."
+  },
+  {
+    "id": "mj-11",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "What is Coin's proposed final Hunger Games?",
+    "options": [
+      "One with only rebels",
+      "One with only victors",
+      "One with Snow's family",
+      "One using Capitol children"
+    ],
+    "answerIndex": 3,
+    "explanation": "Katniss votes yes in order to get her chance at Snow."
+  },
+  {
+    "id": "mj-12",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who commands the squad Katniss is sent into the Capitol with?",
+    "options": [
+      "Gale",
+      "Boggs",
+      "Finnick",
+      "Cressida"
+    ],
+    "answerIndex": 1,
+    "explanation": "Boggs is Coin's soldier and Katniss's protector."
+  },
+  {
+    "id": "mj-13",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who directs the rebel propos?",
+    "options": [
+      "Cressida",
+      "Pollux",
+      "Fulvia Cardew",
+      "Messalla"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cressida leads the film crew in the field."
+  },
+  {
+    "id": "mj-14",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Where does Gale go after the war?",
+    "options": [
+      "District 13",
+      "District 2",
+      "District 12",
+      "The Capitol"
+    ],
+    "answerIndex": 1,
+    "explanation": "He takes a job there."
+  },
+  {
+    "id": "mj-15",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who is Finnick's wife?",
+    "options": [
+      "Enobaria",
+      "Johanna Mason",
+      "Mags",
+      "Annie Cresta"
+    ],
+    "answerIndex": 3,
+    "explanation": "They marry before the Capitol assault."
+  },
+  {
+    "id": "mj-16",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "How does Finnick die?",
+    "options": [
+      "Shot by a Peacekeeper",
+      "Poisoned",
+      "Attacked by lizard mutts in the sewers",
+      "Killed by a pod"
+    ],
+    "answerIndex": 2,
+    "explanation": "The mutts attack the squad in the tunnels."
+  },
+  {
+    "id": "mj-17",
+    "book": "mockingjay",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "Where do people in District 13 keep their daily schedule?",
+    "options": [
+      "On a card",
+      "In a book",
+      "On a screen",
+      "Tattooed on their arms"
+    ],
+    "answerIndex": 3,
+    "explanation": "The schedule is stamped on their arm each morning."
+  },
+  {
+    "id": "mj-18",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "In which district does Katniss visit a hospital after a Capitol bombing?",
+    "options": [
+      "District 11",
+      "District 5",
+      "District 8",
+      "District 2"
+    ],
+    "answerIndex": 2,
+    "explanation": "The visit is filmed for a propo."
+  },
+  {
+    "id": "mj-19",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What did District 13 have that made the Capitol keep a truce?",
+    "options": [
+      "A large army",
+      "Nuclear weapons",
+      "Hovercraft",
+      "Poison gas"
+    ],
+    "answerIndex": 1,
+    "explanation": "District 13 mined graphite and developed nuclear technology."
+  },
+  {
+    "id": "mj-20",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What does Boggs give Katniss before he dies?",
+    "options": [
+      "His Holo",
+      "His boots",
+      "His map",
+      "His knife"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Holo lets her navigate the Capitol."
+  },
+  {
+    "id": "mj-21",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "Who hides Katniss's squad in the Capitol?",
+    "options": [
+      "Haymitch",
+      "Cressida",
+      "Plutarch",
+      "Tigris"
+    ],
+    "answerIndex": 3,
+    "explanation": "Tigris is a former stylist who has been altered to look like a tiger."
+  },
+  {
+    "id": "mj-22",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What creatures attack the squad in the Capitol sewers?",
+    "options": [
+      "Lizard mutts",
+      "Tracker jackers",
+      "Wolf mutts",
+      "Jabberjays"
+    ],
+    "answerIndex": 0,
+    "explanation": "They are hunting in the tunnels."
+  },
+  {
+    "id": "mj-23",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What flower does Katniss find in her old home in District 12?",
+    "options": [
+      "A primrose",
+      "A lily",
+      "A dandelion",
+      "A white rose"
+    ],
+    "answerIndex": 3,
+    "explanation": "Snow left it as a message."
+  },
+  {
+    "id": "mj-24",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "Who is the Secretary of Communications under the new government?",
+    "options": [
+      "Haymitch",
+      "Beetee",
+      "Cressida",
+      "Plutarch Heavensbee"
+    ],
+    "answerIndex": 3,
+    "explanation": "He stays on after the rebellion."
+  },
+  {
+    "id": "mj-25",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What do Katniss and Peeta collect in a book?",
+    "options": [
+      "Recipes",
+      "The names and memories of the dead",
+      "Plants",
+      "Maps"
+    ],
+    "answerIndex": 1,
+    "explanation": "The book is a way to remember the lost."
+  },
+  {
+    "id": "mj-26",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What kind of weapon do Gale and Beetee design?",
+    "options": [
+      "A shield",
+      "Traps that hit twice, first as bait and then on rescuers",
+      "A new radio",
+      "A hovercraft"
+    ],
+    "answerIndex": 1,
+    "explanation": "Katniss fears the bombs that killed Prim used their design."
+  },
+  {
+    "id": "mj-27",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Where does Katniss's mother go after the war?",
+    "options": [
+      "The Capitol",
+      "District 13",
+      "District 2",
+      "District 4, to work as a healer"
+    ],
+    "answerIndex": 3,
+    "explanation": "She cannot bear to stay in District 12."
+  },
+  {
+    "id": "mj-28",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What happens to Buttercup after the war?",
+    "options": [
+      "He dies",
+      "He returns to Katniss in District 12",
+      "He goes with Katniss's mother",
+      "He stays in District 13"
+    ],
+    "answerIndex": 1,
+    "explanation": "The cat is a reminder of Prim."
+  },
+  {
+    "id": "mj-29",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "What does Katniss demand before agreeing to be the Mockingjay?",
+    "options": [
+      "A new bow",
+      "A seat on the council",
+      "Immunity for Peeta and the other captured victors",
+      "Her mother's release"
+    ],
+    "answerIndex": 2,
+    "explanation": "Coin agrees to it."
+  },
+  {
+    "id": "mj-30",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What does Beetee give Katniss in the Capitol mission?",
+    "options": [
+      "A map",
+      "A radio",
+      "A bow with special arrows",
+      "A shield"
+    ],
+    "answerIndex": 2,
+    "explanation": "The arrows are designed for the mission."
+  },
+  {
+    "id": "mj-31",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "Who is the District 13 psychiatrist who treats Katniss?",
+    "options": [
+      "Dr. Heavensbee",
+      "Dr. Cardew",
+      "Dr. Aurelius",
+      "Dr. Gaul"
+    ],
+    "answerIndex": 2,
+    "explanation": "He helps her through her breakdown."
+  },
+  {
+    "id": "mj-32",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What is Katniss's squad in the Capitol mission called?",
+    "options": [
+      "The Mockingjays",
+      "The Star Squad",
+      "The Sparks",
+      "Squad Thirteen"
+    ],
+    "answerIndex": 1,
+    "explanation": "It is Squad 451."
   }
 ]

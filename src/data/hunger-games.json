@@ -2,106 +2,601 @@
   {
     "id": "hg-01",
     "book": "hunger-games",
-    "category": "Tributes",
+    "category": "Characters",
     "difficulty": "easy",
-    "question": "Who does Katniss volunteer to replace at the Reaping?",
+    "question": "Which district is Katniss Everdeen from?",
     "options": [
-      "Rue",
-      "Prim",
-      "Madge",
-      "Gale"
+      "District 11",
+      "District 7",
+      "District 12",
+      "District 4"
     ],
-    "answerIndex": 1,
-    "explanation": "Katniss takes her younger sister Primrose's place as District 12's female tribute."
+    "answerIndex": 2,
+    "explanation": "District 12 is the coal-mining district and one of the poorest in Panem."
   },
   {
     "id": "hg-02",
     "book": "hunger-games",
     "category": "Tributes",
     "difficulty": "easy",
-    "question": "What is the name of Katniss's hunting partner back home?",
+    "question": "Who does Katniss volunteer to replace at the Reaping?",
     "options": [
-      "Cato",
+      "Rue",
+      "Madge",
+      "Greasy Sae",
+      "Prim"
+    ],
+    "answerIndex": 3,
+    "explanation": "Katniss takes her twelve-year-old sister Primrose's place."
+  },
+  {
+    "id": "hg-03",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who is Katniss's hunting partner back home?",
+    "options": [
+      "Finnick",
       "Haymitch",
       "Gale",
-      "Finnick"
+      "Cato"
     ],
     "answerIndex": 2,
     "explanation": "Gale Hawthorne hunts and trades with Katniss in the woods outside District 12."
   },
   {
-    "id": "hg-03",
+    "id": "hg-04",
     "book": "hunger-games",
     "category": "Games",
     "difficulty": "easy",
-    "question": "What poisonous berries do Katniss and Peeta threaten to eat at the end of the Games?",
+    "question": "What is Katniss's weapon of choice?",
     "options": [
-      "Nightlock",
-      "Wolfsbane",
-      "Hemlock",
-      "Deathcap"
+      "Knife",
+      "Spear",
+      "Bow and arrows",
+      "Axe"
     ],
-    "answerIndex": 0,
-    "explanation": "The threat forces the Gamemakers to let both District 12 tributes win."
-  },
-  {
-    "id": "hg-04",
-    "book": "hunger-games",
-    "category": "Tributes",
-    "difficulty": "medium",
-    "question": "What is the name of the District 11 girl who allies with Katniss?",
-    "options": [
-      "Clove",
-      "Glimmer",
-      "Foxface",
-      "Rue"
-    ],
-    "answerIndex": 3,
-    "explanation": "Rue is small and quick, and her death deeply affects Katniss and District 11."
+    "answerIndex": 2,
+    "explanation": "Her father taught her to hunt with a bow."
   },
   {
     "id": "hg-05",
     "book": "hunger-games",
     "category": "Characters",
-    "difficulty": "medium",
-    "question": "What does Peeta's family do for a living?",
+    "difficulty": "easy",
+    "question": "What is the name of Prim's goat?",
     "options": [
-      "They run a bakery",
-      "They mine coal",
-      "They run an apothecary",
-      "They farm"
+      "Daisy",
+      "Clover",
+      "Lady",
+      "Snowball"
     ],
-    "answerIndex": 0,
-    "explanation": "Peeta once threw burnt bread to a starving Katniss, which helped keep her family alive."
+    "answerIndex": 2,
+    "explanation": "Prim loves Lady and uses her milk to make cheese."
   },
   {
     "id": "hg-06",
     "book": "hunger-games",
-    "category": "Games",
-    "difficulty": "medium",
-    "question": "What attacks the last tributes at the Cornucopia on the final night?",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What is the name of Prim's cat?",
     "options": [
-      "Tracker jackers",
-      "Wolf-like muttations",
-      "A flood",
-      "Fireballs"
+      "Fluffy",
+      "Whiskers",
+      "Buttercup",
+      "Snowball"
     ],
-    "answerIndex": 1,
-    "explanation": "The Gamemakers release mutts that resemble the fallen tributes, driving Cato, Katniss, and Peeta onto the Cornucopia."
+    "answerIndex": 2,
+    "explanation": "Buttercup is the ugly, cranky cat that Katniss tolerates for Prim's sake."
   },
   {
     "id": "hg-07",
     "book": "hunger-games",
     "category": "Characters",
+    "difficulty": "easy",
+    "question": "What does Peeta's family do for a living?",
+    "options": [
+      "Run a bakery",
+      "Run an apothecary",
+      "Run a tailor shop",
+      "Mine coal"
+    ],
+    "answerIndex": 0,
+    "explanation": "Peeta once threw burnt bread to a starving Katniss, which helped keep her family alive."
+  },
+  {
+    "id": "hg-08",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "What poisonous berries do Katniss and Peeta threaten to eat at the end of the Games?",
+    "options": [
+      "Wolfsbane",
+      "Hemlock",
+      "Deathcap",
+      "Nightlock"
+    ],
+    "answerIndex": 3,
+    "explanation": "The threat forces the Gamemakers to let both District 12 tributes win."
+  },
+  {
+    "id": "hg-09",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who is District 12's escort?",
+    "options": [
+      "Effie Trinket",
+      "Portia",
+      "Flavius",
+      "Octavia"
+    ],
+    "answerIndex": 0,
+    "explanation": "Effie draws the names at the Reaping and chaperones the tributes."
+  },
+  {
+    "id": "hg-10",
+    "book": "hunger-games",
+    "category": "Capitol",
+    "difficulty": "easy",
+    "question": "Who hosts the televised interviews with the tributes?",
+    "options": [
+      "Caesar Flickerman",
+      "Plutarch Heavensbee",
+      "Claudius Templesmith",
+      "Seneca Crane"
+    ],
+    "answerIndex": 0,
+    "explanation": "Caesar's flamboyant, changing hair color is a trademark."
+  },
+  {
+    "id": "hg-11",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "How many tributes enter each Hunger Games?",
+    "options": [
+      "24",
+      "48",
+      "16",
+      "12"
+    ],
+    "answerIndex": 0,
+    "explanation": "One boy and one girl from each of the twelve districts."
+  },
+  {
+    "id": "hg-12",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who is Katniss's stylist in the first book?",
+    "options": [
+      "Cinna",
+      "Flavius",
+      "Venia",
+      "Portia"
+    ],
+    "answerIndex": 0,
+    "explanation": "Cinna's designs make Katniss the Girl on Fire."
+  },
+  {
+    "id": "hg-13",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What score do the Gamemakers give Katniss in training?",
+    "options": [
+      "9",
+      "7",
+      "12",
+      "11"
+    ],
+    "answerIndex": 3,
+    "explanation": "The high score makes her a target but also draws sponsors."
+  },
+  {
+    "id": "hg-14",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which District 11 girl allies with Katniss?",
+    "options": [
+      "Glimmer",
+      "Clove",
+      "Rue",
+      "Foxface"
+    ],
+    "answerIndex": 2,
+    "explanation": "Rue is small and quick, and her death deeply affects Katniss and District 11."
+  },
+  {
+    "id": "hg-15",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "How old is Rue?",
+    "options": [
+      "10",
+      "12",
+      "14",
+      "11"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rue is the same age as Prim."
+  },
+  {
+    "id": "hg-16",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What does Rue point out that Katniss uses against the Careers?",
+    "options": [
+      "A tracker jacker nest",
+      "A trap door",
+      "A hidden spring",
+      "A cave full of supplies"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss cuts the nest loose above the sleeping Careers."
+  },
+  {
+    "id": "hg-17",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "How does Katniss honor Rue after her death?",
+    "options": [
+      "Covers her body with flowers",
+      "Carries her to the Cornucopia",
+      "Buries her in the dirt",
+      "Burns a signal fire"
+    ],
+    "answerIndex": 0,
+    "explanation": "The act of defiance is broadcast across Panem."
+  },
+  {
+    "id": "hg-18",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What gesture does Katniss give to the cameras for Rue?",
+    "options": [
+      "The three-finger salute",
+      "A bow",
+      "A wave",
+      "A raised fist"
+    ],
+    "answerIndex": 0,
+    "explanation": "The salute becomes a symbol of the rebellion."
+  },
+  {
+    "id": "hg-19",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who gave Katniss her mockingjay pin?",
+    "options": [
+      "Madge Undersee",
+      "Cinna",
+      "Haymitch",
+      "Prim"
+    ],
+    "answerIndex": 0,
+    "explanation": "Madge, the mayor's daughter, gives it to her as a good-luck token."
+  },
+  {
+    "id": "hg-20",
+    "book": "hunger-games",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "Who is the Head Gamemaker in the 74th Hunger Games?",
+    "options": [
+      "Dr. Gaul",
+      "Plutarch Heavensbee",
+      "Claudius Templesmith",
+      "Seneca Crane"
+    ],
+    "answerIndex": 3,
+    "explanation": "President Snow punishes him after the berry stunt."
+  },
+  {
+    "id": "hg-21",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which district are Cato and Clove from?",
+    "options": [
+      "District 4",
+      "District 2",
+      "District 11",
+      "District 1"
+    ],
+    "answerIndex": 1,
+    "explanation": "District 2 is one of the Career districts."
+  },
+  {
+    "id": "hg-22",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What does District 11 send Katniss after Rue's death?",
+    "options": [
+      "A loaf of bread",
+      "Arrows",
+      "Water",
+      "Medicine"
+    ],
+    "answerIndex": 0,
+    "explanation": "It is a rare gift from one district to another's tribute."
+  },
+  {
+    "id": "hg-23",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Who kills Rue?",
+    "options": [
+      "Cato",
+      "Clove",
+      "Marvel",
+      "Glimmer"
+    ],
+    "answerIndex": 2,
+    "explanation": "The District 1 boy throws a spear at Rue, and Katniss shoots him in return."
+  },
+  {
+    "id": "hg-24",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Who kills Clove at the Feast?",
+    "options": [
+      "Katniss",
+      "Cato",
+      "Thresh",
+      "Peeta"
+    ],
+    "answerIndex": 2,
+    "explanation": "Thresh smashes her with a rock, then spares Katniss because of Rue."
+  },
+  {
+    "id": "hg-25",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "How does Katniss destroy the Careers' supplies?",
+    "options": [
+      "Shoots a net of apples to set off mines",
+      "Sets a fire",
+      "Poisons the food",
+      "Floods the Cornucopia"
+    ],
+    "answerIndex": 0,
+    "explanation": "The mines they buried around the supplies explode."
+  },
+  {
+    "id": "hg-26",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "What happens to Glimmer after Katniss drops the nest?",
+    "options": [
+      "She dies from tracker jacker stings",
+      "She is shot by Cato",
+      "She escapes unharmed",
+      "She drowns"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss takes her bow from her body."
+  },
+  {
+    "id": "hg-27",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Where does Katniss get her bow in the arena?",
+    "options": [
+      "A sponsor parachute",
+      "The Cornucopia",
+      "Rue",
+      "From Glimmer's body"
+    ],
+    "answerIndex": 3,
+    "explanation": "Katniss grabs the bow while hallucinating from tracker jacker venom."
+  },
+  {
+    "id": "hg-28",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What does Peeta confess in his televised interview?",
+    "options": [
+      "That he is an orphan",
+      "That he wants to win alone",
+      "That he hates the Capitol",
+      "That he has loved Katniss for years"
+    ],
+    "answerIndex": 3,
+    "explanation": "The confession sparks the star-crossed lovers story."
+  },
+  {
+    "id": "hg-29",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What is Katniss's mother's profession?",
+    "options": [
+      "Baker",
+      "Healer",
+      "Peacekeeper",
+      "Teacher"
+    ],
+    "answerIndex": 1,
+    "explanation": "She is an apothecary's daughter and treats the sick in the Seam."
+  },
+  {
+    "id": "hg-30",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "How did Katniss's father die?",
+    "options": [
+      "In a mine explosion",
+      "In the Games",
+      "Hunting accident",
+      "Of illness"
+    ],
+    "answerIndex": 0,
+    "explanation": "The explosion left her family in poverty."
+  },
+  {
+    "id": "hg-31",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What song does Katniss sing to Rue?",
+    "options": [
+      "The Valley Song",
+      "The Hanging Tree",
+      "A lullaby about the meadow",
+      "A fight song"
+    ],
+    "answerIndex": 2,
+    "explanation": "It is the song her father taught her."
+  },
+  {
+    "id": "hg-32",
+    "book": "hunger-games",
+    "category": "Games",
     "difficulty": "hard",
     "question": "Which Games did Haymitch Abernathy win?",
     "options": [
-      "The 25th",
-      "The 50th",
       "The 60th",
-      "The 74th"
+      "The 50th",
+      "The 74th",
+      "The 25th"
     ],
     "answerIndex": 1,
-    "explanation": "Haymitch won the second Quarter Quell, the 50th Hunger Games."
+    "explanation": "Haymitch won the second Quarter Quell."
+  },
+  {
+    "id": "hg-33",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "hard",
+    "question": "What document established the Hunger Games as punishment after the rebellion?",
+    "options": [
+      "The Dark Days Act",
+      "The Capitol Charter",
+      "The Treaty of Tributes",
+      "The Treaty of Treason"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Treaty created the annual Games."
+  },
+  {
+    "id": "hg-34",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "How does Foxface die?",
+    "options": [
+      "Stung by tracker jackers",
+      "Drowned",
+      "Killed by Cato",
+      "Eats nightlock berries she took from Peeta"
+    ],
+    "answerIndex": 3,
+    "explanation": "She stole the berries Peeta gathered, thinking they were edible."
+  },
+  {
+    "id": "hg-35",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What is the name of Gale's younger sister?",
+    "options": [
+      "Posy",
+      "Madge",
+      "Rue",
+      "Primrose"
+    ],
+    "answerIndex": 0,
+    "explanation": "Posy is the youngest Hawthorne child."
+  },
+  {
+    "id": "hg-36",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "What rule change is announced mid-Games?",
+    "options": [
+      "Sponsors are cut off",
+      "Weapons are banned",
+      "Two tributes from the same district can win",
+      "The Games are extended a week"
+    ],
+    "answerIndex": 2,
+    "explanation": "The announcement reverses itself, but it lets Katniss and Peeta unite."
+  },
+  {
+    "id": "hg-37",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "How does Peeta survive after Cato's attack?",
+    "options": [
+      "He is rescued by a hovercraft",
+      "He hides in camouflage by the river",
+      "Katniss finds medicine at once",
+      "Rue hides him"
+    ],
+    "answerIndex": 1,
+    "explanation": "Katniss finds him painted in mud and brings him to a cave."
+  },
+  {
+    "id": "hg-38",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What is the name of the Gamemaker's announcer who speaks to the tributes?",
+    "options": [
+      "Claudius Templesmith",
+      "Cinna",
+      "Caesar Flickerman",
+      "Seneca Crane"
+    ],
+    "answerIndex": 0,
+    "explanation": "His announcements are broadcast over the arena."
+  },
+  {
+    "id": "hg-39",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "Which district is Foxface from?",
+    "options": [
+      "District 9",
+      "District 5",
+      "District 6",
+      "District 3"
+    ],
+    "answerIndex": 1,
+    "explanation": "She is clever and avoids fights."
+  },
+  {
+    "id": "hg-40",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "What was Peeta's training score?",
+    "options": [
+      "6",
+      "11",
+      "8",
+      "10"
+    ],
+    "answerIndex": 2,
+    "explanation": "Katniss scored 11, Peeta 8."
   }
 ]

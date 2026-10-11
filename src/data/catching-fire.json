@@ -6,13 +6,13 @@
     "difficulty": "easy",
     "question": "What is the twist of the 75th Hunger Games, the Third Quarter Quell?",
     "options": [
-      "Tributes are all children under 12",
-      "Tributes are chosen from existing victors",
       "Tributes fight in teams of four",
-      "No sponsors are allowed"
+      "No sponsors are allowed",
+      "Tributes are all under 12",
+      "Tributes are chosen from existing victors"
     ],
-    "answerIndex": 1,
-    "explanation": "Katniss is the only living female victor from District 12, so she is reaped, and Peeta volunteers to take Haymitch's place."
+    "answerIndex": 3,
+    "explanation": "Katniss, the only living female victor from District 12, is reaped, and Peeta volunteers for Haymitch."
   },
   {
     "id": "cf-02",
@@ -21,57 +21,492 @@
     "difficulty": "easy",
     "question": "Who is Katniss's stylist?",
     "options": [
+      "Caesar Flickerman",
       "Effie Trinket",
-      "Cinna",
-      "Plutarch",
-      "Portia"
+      "Plutarch Heavensbee",
+      "Cinna"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "Cinna's designs, like the burning dress, make Katniss the Girl on Fire."
   },
   {
     "id": "cf-03",
     "book": "catching-fire",
     "category": "Games",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "What shape is the arena in the Quarter Quell?",
     "options": [
-      "A maze",
       "A clock",
       "A pyramid",
-      "A spiral"
+      "A spiral",
+      "A maze"
     ],
-    "answerIndex": 1,
+    "answerIndex": 0,
     "explanation": "Each hour of the clock has a different deadly trap."
   },
   {
     "id": "cf-04",
     "book": "catching-fire",
     "category": "Tributes",
-    "difficulty": "medium",
+    "difficulty": "easy",
     "question": "Which District 4 victor allies with Katniss and Peeta in the arena?",
     "options": [
-      "Finnick Odair",
+      "Chaff",
       "Beetee",
-      "Cato",
-      "Brutus"
+      "Brutus",
+      "Finnick Odair"
     ],
-    "answerIndex": 0,
+    "answerIndex": 3,
     "explanation": "Finnick fights with a trident and a net."
   },
   {
     "id": "cf-05",
     "book": "catching-fire",
-    "category": "Tributes",
-    "difficulty": "hard",
-    "question": "Which victor from District 7 strips in the elevator and fights with axes?",
+    "category": "Capitol",
+    "difficulty": "easy",
+    "question": "What happens to District 12 at the end of the book?",
     "options": [
-      "Wiress",
-      "Johanna Mason",
-      "Enobaria",
-      "Mags"
+      "It floods",
+      "The Capitol destroys it with bombs",
+      "The Capitol takes over its mines",
+      "Its people are moved to the Capitol"
     ],
     "answerIndex": 1,
+    "explanation": "Gale gets many people out, but the district is lost."
+  },
+  {
+    "id": "cf-06",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "easy",
+    "question": "Who becomes the new Head Gamemaker?",
+    "options": [
+      "Seneca Crane",
+      "Claudius Templesmith",
+      "Plutarch Heavensbee",
+      "Caesar Flickerman"
+    ],
+    "answerIndex": 2,
+    "explanation": "He is secretly working with the rebels."
+  },
+  {
+    "id": "cf-07",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Which of these tributes is captured by the Capitol at the end?",
+    "options": [
+      "Finnick",
+      "Haymitch",
+      "Beetee",
+      "Peeta"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Capitol takes Peeta, Johanna, and Enobaria."
+  },
+  {
+    "id": "cf-08",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "What is the tour that victors make through the districts called?",
+    "options": [
+      "The Panem Parade",
+      "The Harvest Tour",
+      "The Victory Tour",
+      "The Grand Tour"
+    ],
+    "answerIndex": 2,
+    "explanation": "Katniss and Peeta's tour is full of tension and unrest."
+  },
+  {
+    "id": "cf-09",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "How often is a Quarter Quell held?",
+    "options": [
+      "Every 25 years",
+      "Every 10 years",
+      "Every 20 years",
+      "Every 50 years"
+    ],
+    "answerIndex": 0,
+    "explanation": "Each Quell comes with a special twist."
+  },
+  {
+    "id": "cf-10",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What does Katniss's wedding dress turn into on television?",
+    "options": [
+      "A flame",
+      "A mockingjay",
+      "A rose",
+      "A butterfly"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cinna's design makes the defiant statement, and he is beaten for it."
+  },
+  {
+    "id": "cf-11",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "What flower does President Snow smell of?",
+    "options": [
+      "Roses",
+      "Lilacs",
+      "Lilies",
+      "Lavender"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss notes the smell is mixed with blood."
+  },
+  {
+    "id": "cf-12",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What does Peeta announce in his interview before the Quell?",
+    "options": [
+      "That Katniss is pregnant",
+      "That he is a rebel",
+      "That he will quit the Games",
+      "That he is leaving District 12"
+    ],
+    "answerIndex": 0,
+    "explanation": "He hopes the Capitol audience will protest sending a pregnant mother into the arena."
+  },
+  {
+    "id": "cf-13",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which District 7 victor strips in the elevator and fights with axes?",
+    "options": [
+      "Enobaria",
+      "Wiress",
+      "Mags",
+      "Johanna Mason"
+    ],
+    "answerIndex": 3,
     "explanation": "Johanna is tough and sarcastic, and she turns out to be on the rebels' side."
+  },
+  {
+    "id": "cf-14",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which older District 4 victor volunteers for Annie Cresta at the Reaping?",
+    "options": [
+      "Wiress",
+      "Chaff",
+      "Mags",
+      "Cashmere"
+    ],
+    "answerIndex": 2,
+    "explanation": "Finnick carries her through the early part of the Games."
+  },
+  {
+    "id": "cf-15",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which District 3 victor reveals the arena is a clock?",
+    "options": [
+      "Wiress",
+      "Johanna",
+      "Beetee",
+      "Annie"
+    ],
+    "answerIndex": 0,
+    "explanation": "She keeps repeating 'Tick, tock'."
+  },
+  {
+    "id": "cf-16",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "Who is the new head Peacekeeper in District 12?",
+    "options": [
+      "Darius",
+      "Romulus Thread",
+      "Boggs",
+      "Cray"
+    ],
+    "answerIndex": 1,
+    "explanation": "He cracks down hard and whips Gale."
+  },
+  {
+    "id": "cf-17",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What is the District 12 black market called?",
+    "options": [
+      "The Hob",
+      "The Meadow",
+      "The Seam",
+      "The Square"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss and Gale trade game there."
+  },
+  {
+    "id": "cf-18",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Why is Gale whipped?",
+    "options": [
+      "For leading a protest",
+      "For stealing medicine",
+      "For fighting a Peacekeeper",
+      "For hunting a turkey"
+    ],
+    "answerIndex": 3,
+    "explanation": "The punishment is carried out in public."
+  },
+  {
+    "id": "cf-19",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which victor offers Katniss a sugar cube in the Training Center?",
+    "options": [
+      "Beetee",
+      "Brutus",
+      "Finnick Odair",
+      "Chaff"
+    ],
+    "answerIndex": 2,
+    "explanation": "Finnick sucks on sugar cubes to unsettle people."
+  },
+  {
+    "id": "cf-20",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What do the jabberjays mimic in the arena?",
+    "options": [
+      "Rain",
+      "Gunfire",
+      "The sound of a bell",
+      "The screams of loved ones"
+    ],
+    "answerIndex": 3,
+    "explanation": "Katniss hears what sounds like Prim and Gale."
+  },
+  {
+    "id": "cf-21",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Who cuts the tracker out of Katniss's arm?",
+    "options": [
+      "Beetee",
+      "Haymitch",
+      "Johanna",
+      "Finnick"
+    ],
+    "answerIndex": 2,
+    "explanation": "Johanna's aggression is a cover for the rebel plan."
+  },
+  {
+    "id": "cf-22",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What are the names of Katniss's prep team?",
+    "options": [
+      "Portia, Effie, and Cinna",
+      "Darius, Cray, and Thread",
+      "Cashmere, Gloss, and Brutus",
+      "Flavius, Venia, and Octavia"
+    ],
+    "answerIndex": 3,
+    "explanation": "They help get her ready for every public appearance."
+  },
+  {
+    "id": "cf-23",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What do the people of District 11 do after Katniss speaks about Rue and Thresh?",
+    "options": [
+      "Throw flowers",
+      "Sing the anthem",
+      "Shout slogans",
+      "Give the three-finger salute"
+    ],
+    "answerIndex": 3,
+    "explanation": "The salute is a sign of respect and defiance."
+  },
+  {
+    "id": "cf-24",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Who restarts Katniss's heart in the arena?",
+    "options": [
+      "Finnick",
+      "Peeta",
+      "Johanna",
+      "Beetee"
+    ],
+    "answerIndex": 0,
+    "explanation": "She is shocked when she runs into the force field."
+  },
+  {
+    "id": "cf-25",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Which District 11 victor is missing a hand?",
+    "options": [
+      "Chaff",
+      "Thresh",
+      "Seeder",
+      "Blight"
+    ],
+    "answerIndex": 0,
+    "explanation": "Chaff is Haymitch's friend and a rebel ally."
+  },
+  {
+    "id": "cf-26",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Which District 1 victors, a brother and sister, fight as Careers in the Quell?",
+    "options": [
+      "Wiress and Beetee",
+      "Cashmere and Gloss",
+      "Johanna and Blight",
+      "Brutus and Enobaria"
+    ],
+    "answerIndex": 1,
+    "explanation": "Both die in the arena."
+  },
+  {
+    "id": "cf-27",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "How does Katniss break the arena's force field?",
+    "options": [
+      "Shoots an arrow with wire at the lightning tree",
+      "Tricks a Peacekeeper",
+      "Throws a spear",
+      "Detonates a bomb"
+    ],
+    "answerIndex": 0,
+    "explanation": "Beetee devised the plan."
+  },
+  {
+    "id": "cf-28",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "How did Haymitch win the 50th Games?",
+    "options": [
+      "By hiding in a cave",
+      "By using the arena's force field",
+      "By poisoning the water",
+      "By fighting alone"
+    ],
+    "answerIndex": 1,
+    "explanation": "He used the edge of the arena, which angered the Capitol."
+  },
+  {
+    "id": "cf-29",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "hard",
+    "question": "What object of Plutarch's has a mockingjay on it?",
+    "options": [
+      "A ring",
+      "A medal",
+      "A pocket watch",
+      "A cufflink"
+    ],
+    "answerIndex": 2,
+    "explanation": "It is a hint that he is on her side."
+  },
+  {
+    "id": "cf-30",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Which District 2 victor has teeth filed into fangs?",
+    "options": [
+      "Cashmere",
+      "Johanna",
+      "Enobaria",
+      "Brutus"
+    ],
+    "answerIndex": 2,
+    "explanation": "She is a Career and a rival to Katniss."
+  },
+  {
+    "id": "cf-31",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "What nickname are Beetee and Wiress known by?",
+    "options": [
+      "Tick and Tock",
+      "Wire and Watt",
+      "Spark and Fuse",
+      "Nuts and Volts"
+    ],
+    "answerIndex": 3,
+    "explanation": "Both are from District 3, the tech district."
+  },
+  {
+    "id": "cf-32",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "hard",
+    "question": "How were the tributes chosen at the first Quarter Quell?",
+    "options": [
+      "Snow chose them",
+      "They were drawn from the oldest",
+      "The districts voted for them",
+      "They volunteered"
+    ],
+    "answerIndex": 2,
+    "explanation": "Haymitch's Games was the second Quell."
+  },
+  {
+    "id": "cf-33",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "hard",
+    "question": "What was the twist of the 50th Games, the second Quarter Quell?",
+    "options": [
+      "Tributes were chosen by their districts",
+      "Twice as many tributes",
+      "Only victors fought",
+      "No weapons were allowed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Haymitch won it."
+  },
+  {
+    "id": "cf-34",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "What happens on the clock at noon and midnight?",
+    "options": [
+      "Lightning strikes a tree",
+      "Mutts attack",
+      "Blood rain falls",
+      "Poison fog rises"
+    ],
+    "answerIndex": 0,
+    "explanation": "Beetee uses this trap in the plan."
   }
 ]

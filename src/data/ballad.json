@@ -4,29 +4,269 @@
     "book": "ballad",
     "category": "Characters",
     "difficulty": "easy",
-    "question": "Which future president is the main character of the prequel?",
+    "question": "Who is the main character of The Ballad of Songbirds and Snakes?",
     "options": [
-      "Haymitch Abernathy",
       "Coriolanus Snow",
+      "Casca Highbottom",
       "Sejanus Plinth",
-      "Casca Highbottom"
+      "Haymitch Abernathy"
     ],
-    "answerIndex": 1,
-    "explanation": "The novel follows an eighteen-year-old Coriolanus as a mentor in the 10th Games."
+    "answerIndex": 0,
+    "explanation": "The novel follows an eighteen-year-old Snow as a mentor in the 10th Games."
   },
   {
     "id": "bs-02",
     "book": "ballad",
-    "category": "Songs",
-    "difficulty": "medium",
-    "question": "Which song does Lucy Gray sing that is later important to the rebellion?",
+    "category": "Tributes",
+    "difficulty": "easy",
+    "question": "Which district is Lucy Gray Baird from?",
     "options": [
-      "The Hanging Tree",
-      "The Last Dance",
-      "Pure as the Driven Snow",
-      "Nothing You Can Take"
+      "District 11",
+      "District 4",
+      "District 12",
+      "District 7"
+    ],
+    "answerIndex": 2,
+    "explanation": "Lucy Gray is the District 12 girl Coriolanus is assigned to mentor."
+  },
+  {
+    "id": "bs-03",
+    "book": "ballad",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "Which Hunger Games does the novel take place around?",
+    "options": [
+      "The 1st",
+      "The 50th",
+      "The 25th",
+      "The 10th"
+    ],
+    "answerIndex": 3,
+    "explanation": "It is the tenth year of the Games, and the first with mentors."
+  },
+  {
+    "id": "bs-04",
+    "book": "ballad",
+    "category": "Capitol",
+    "difficulty": "easy",
+    "question": "What does Coriolanus Snow grow up to become?",
+    "options": [
+      "Dean of the Academy",
+      "Head Gamemaker",
+      "President of Panem",
+      "A Peacekeeper"
+    ],
+    "answerIndex": 2,
+    "explanation": "He is the villain of the original trilogy."
+  },
+  {
+    "id": "bs-05",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who is Coriolanus Snow's cousin and closest family?",
+    "options": [
+      "Tigris",
+      "Sejanus",
+      "Livia",
+      "Clemensia"
     ],
     "answerIndex": 0,
-    "explanation": "Katniss later learns and sings the song in the Mockingjay timeline."
+    "explanation": "Tigris later appears in Mockingjay, living in the Capitol."
+  },
+  {
+    "id": "bs-06",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What does Grandma'am grow on the roof?",
+    "options": [
+      "Roses",
+      "Tomatoes",
+      "Lilies",
+      "Herbs"
+    ],
+    "answerIndex": 0,
+    "explanation": "The roses foreshadow the scent President Snow carries in the later books."
+  },
+  {
+    "id": "bs-07",
+    "book": "ballad",
+    "category": "Songs",
+    "difficulty": "easy",
+    "question": "Which song from the prequel later becomes a rebel anthem?",
+    "options": [
+      "The Last Dance",
+      "The Hanging Tree",
+      "Pure as the Driven Snow",
+      "Nothing You Can Take from Me"
+    ],
+    "answerIndex": 1,
+    "explanation": "Katniss sings it in the Mockingjay timeline."
+  },
+  {
+    "id": "bs-08",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Which group does Lucy Gray belong to?",
+    "options": [
+      "The Peacekeepers",
+      "The Covey",
+      "The Merchants",
+      "The Seam"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Covey are a traveling band of musicians in District 12."
+  },
+  {
+    "id": "bs-09",
+    "book": "ballad",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is the Plinth Prize?",
+    "options": [
+      "A trophy",
+      "A seat on the Council",
+      "A cash gift",
+      "A university scholarship for the best mentor"
+    ],
+    "answerIndex": 3,
+    "explanation": "Coriolanus needs it to continue his education."
+  },
+  {
+    "id": "bs-10",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Which classmate of Snow's was born in District 2?",
+    "options": [
+      "Sejanus Plinth",
+      "Festus Creed",
+      "Clemensia Dovecote",
+      "Livia Cardew"
+    ],
+    "answerIndex": 0,
+    "explanation": "The Plinth family bought their way into the Capitol."
+  },
+  {
+    "id": "bs-11",
+    "book": "ballad",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "Who is the Head Gamemaker?",
+    "options": [
+      "Casca Highbottom",
+      "Dr. Volumnia Gaul",
+      "Seneca Crane",
+      "Plutarch Heavensbee"
+    ],
+    "answerIndex": 1,
+    "explanation": "Gaul is Snow's patron and a creator of mutts."
+  },
+  {
+    "id": "bs-12",
+    "book": "ballad",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "Who is the dean of the Academy?",
+    "options": [
+      "Strabo Plinth",
+      "Tigris Snow",
+      "Volumnia Gaul",
+      "Casca Highbottom"
+    ],
+    "answerIndex": 3,
+    "explanation": "Highbottom has a troubled past with morphling."
+  },
+  {
+    "id": "bs-13",
+    "book": "ballad",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "What change does Coriolanus suggest to make the Games more popular?",
+    "options": [
+      "Letting the audience give gifts to tributes",
+      "Giving tributes weapons",
+      "Moving it to a stadium",
+      "Adding more tributes"
+    ],
+    "answerIndex": 0,
+    "explanation": "This becomes the sponsor system of the later Games."
+  },
+  {
+    "id": "bs-14",
+    "book": "ballad",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What is the arena of the 10th Games?",
+    "options": [
+      "A desert",
+      "A forest",
+      "An ice field",
+      "A damaged stadium"
+    ],
+    "answerIndex": 3,
+    "explanation": "It is a former sports arena in the Capitol."
+  },
+  {
+    "id": "bs-15",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who is Lucy Gray's ex-boyfriend in the Covey?",
+    "options": [
+      "Sejanus Plinth",
+      "Billy Taupe",
+      "Coriolanus Snow",
+      "Tam Amber"
+    ],
+    "answerIndex": 1,
+    "explanation": "He plays in the band."
+  },
+  {
+    "id": "bs-16",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What fate befalls Lucy Gray at the end?",
+    "options": [
+      "She dies in the arena",
+      "She is crowned victor and stays in the Capitol",
+      "She vanishes into the woods",
+      "She is executed"
+    ],
+    "answerIndex": 2,
+    "explanation": "Coriolanus never learns what happened to her."
+  },
+  {
+    "id": "bs-17",
+    "book": "ballad",
+    "category": "Games",
+    "difficulty": "hard",
+    "question": "What does Coriolanus give Lucy Gray to use against other tributes?",
+    "options": [
+      "A snake",
+      "A dagger",
+      "A bottle of water",
+      "Rat poison hidden in a compact"
+    ],
+    "answerIndex": 3,
+    "explanation": "It is a way to kill another tribute."
+  },
+  {
+    "id": "bs-18",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "How does Sejanus Plinth die?",
+    "options": [
+      "He is shot",
+      "He is poisoned",
+      "He dies in the arena",
+      "He is hanged"
+    ],
+    "answerIndex": 3,
+    "explanation": "He is executed after turning against the Capitol."
   }
 ]

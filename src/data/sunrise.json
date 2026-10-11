@@ -6,27 +6,132 @@
     "difficulty": "easy",
     "question": "Which Hunger Games does Haymitch compete in?",
     "options": [
-      "The 10th",
+      "The 74th",
       "The 25th",
-      "The 50th",
-      "The 74th"
+      "The 10th",
+      "The 50th"
     ],
-    "answerIndex": 2,
-    "explanation": "It is the second Quarter Quell, and every district sends double the usual number of tributes."
+    "answerIndex": 3,
+    "explanation": "It is the second Quarter Quell."
   },
   {
     "id": "sr-02",
+    "book": "sunrise",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "How many tributes compete in the 50th Games?",
+    "options": [
+      "48",
+      "24",
+      "72",
+      "36"
+    ],
+    "answerIndex": 0,
+    "explanation": "Each district sends twice the usual number."
+  },
+  {
+    "id": "sr-03",
+    "book": "sunrise",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Which Hunger Games tributes does Haymitch later mentor?",
+    "options": [
+      "Finnick and Mags",
+      "Rue and Thresh",
+      "Katniss and Peeta",
+      "Cato and Clove"
+    ],
+    "answerIndex": 2,
+    "explanation": "Haymitch is District 12's only living victor before them."
+  },
+  {
+    "id": "sr-04",
     "book": "sunrise",
     "category": "Characters",
     "difficulty": "medium",
     "question": "What is the name of Haymitch's girlfriend in District 12?",
     "options": [
-      "Maysilee",
-      "Lenore Dove Baird",
       "Lucy Gray",
-      "Sid"
+      "Maysilee Donner",
+      "Lenore Dove Baird",
+      "Madge"
     ],
-    "answerIndex": 1,
-    "explanation": "Lenore Dove is a musician from the Covey, the community Lucy Gray belongs to."
+    "answerIndex": 2,
+    "explanation": "Lenore Dove is a musician from the Covey."
+  },
+  {
+    "id": "sr-05",
+    "book": "sunrise",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "How old is Haymitch at his Reaping?",
+    "options": [
+      "17",
+      "14",
+      "16",
+      "15"
+    ],
+    "answerIndex": 2,
+    "explanation": "He is chosen for the Quarter Quell."
+  },
+  {
+    "id": "sr-06",
+    "book": "sunrise",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Which District 12 tribute is Madge Undersee's aunt?",
+    "options": [
+      "Maysilee Donner",
+      "Lucy Gray",
+      "Lenore Dove",
+      "Louella McCoy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Maysilee is a friend of Haymitch in the arena."
+  },
+  {
+    "id": "sr-07",
+    "book": "sunrise",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "How does Haymitch win the 50th Games?",
+    "options": [
+      "By poisoning water",
+      "By hiding in a cave",
+      "By using the arena's force field",
+      "By fighting alone"
+    ],
+    "answerIndex": 2,
+    "explanation": "His use of the arena's edge angers the Capitol."
+  },
+  {
+    "id": "sr-08",
+    "book": "sunrise",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "Who orders Haymitch's family killed after he wins?",
+    "options": [
+      "Dr. Gaul",
+      "Seneca Crane",
+      "President Snow",
+      "Plutarch Heavensbee"
+    ],
+    "answerIndex": 2,
+    "explanation": "Snow punishes Haymitch for defying the Capitol."
+  },
+  {
+    "id": "sr-09",
+    "book": "sunrise",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "Who is Haymitch's younger brother?",
+    "options": [
+      "Rory",
+      "Peeta",
+      "Sid",
+      "Gale"
+    ],
+    "answerIndex": 2,
+    "explanation": "Sid is killed along with their mother."
   }
 ]
