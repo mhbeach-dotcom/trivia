@@ -132,7 +132,7 @@
       "A university scholarship for the best mentor"
     ],
     "answerIndex": 3,
-    "explanation": "Coriolanus needs it to continue his education."
+    "explanation": "Coriolanus needs it to get into Panem University."
   },
   {
     "id": "bs-10",
@@ -184,15 +184,15 @@
     "book": "ballad",
     "category": "Capitol",
     "difficulty": "medium",
-    "question": "What change does Coriolanus suggest to make the Games more popular?",
+    "question": "What new role do Academy students take on in the 10th Games?",
     "options": [
-      "Letting the audience give gifts to tributes",
-      "Giving tributes weapons",
-      "Moving it to a stadium",
-      "Adding more tributes"
+      "Mentors to the tributes",
+      "Peacekeeper trainees",
+      "Escorts",
+      "Gamemaker apprentices"
     ],
     "answerIndex": 0,
-    "explanation": "This becomes the sponsor system of the later Games."
+    "explanation": "The Plinth Prize now depends on mentoring a tribute."
   },
   {
     "id": "bs-14",
@@ -244,15 +244,15 @@
     "book": "ballad",
     "category": "Games",
     "difficulty": "hard",
-    "question": "What does Coriolanus give Lucy Gray to use against other tributes?",
+    "question": "Coriolanus gives Lucy Gray his mother's compact. What does she hide in it?",
     "options": [
-      "A snake",
-      "A dagger",
-      "A bottle of water",
-      "Rat poison hidden in a compact"
+      "A key",
+      "A knife",
+      "A map",
+      "Rat poison"
     ],
     "answerIndex": 3,
-    "explanation": "It is a way to kill another tribute."
+    "explanation": "She finds the poison in the zoo and brings it into the arena."
   },
   {
     "id": "bs-18",

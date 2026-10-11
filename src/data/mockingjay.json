@@ -347,35 +347,20 @@
   {
     "id": "mj-24",
     "book": "mockingjay",
-    "category": "Rebellion",
-    "difficulty": "hard",
-    "question": "Who is the Secretary of Communications under the new government?",
-    "options": [
-      "Haymitch",
-      "Beetee",
-      "Cressida",
-      "Plutarch Heavensbee"
-    ],
-    "answerIndex": 3,
-    "explanation": "He stays on after the rebellion."
-  },
-  {
-    "id": "mj-25",
-    "book": "mockingjay",
     "category": "Characters",
     "difficulty": "hard",
     "question": "What do Katniss and Peeta collect in a book?",
     "options": [
       "Recipes",
-      "The names and memories of the dead",
+      "Maps",
       "Plants",
-      "Maps"
+      "The names and memories of the dead"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The book is a way to remember the lost."
   },
   {
-    "id": "mj-26",
+    "id": "mj-25",
     "book": "mockingjay",
     "category": "Rebellion",
     "difficulty": "hard",
@@ -390,74 +375,74 @@
     "explanation": "Katniss fears the bombs that killed Prim used their design."
   },
   {
-    "id": "mj-27",
+    "id": "mj-26",
     "book": "mockingjay",
     "category": "Characters",
     "difficulty": "medium",
     "question": "Where does Katniss's mother go after the war?",
     "options": [
       "The Capitol",
+      "District 4, to work as a healer",
       "District 13",
-      "District 2",
-      "District 4, to work as a healer"
+      "District 2"
     ],
-    "answerIndex": 3,
+    "answerIndex": 1,
     "explanation": "She cannot bear to stay in District 12."
   },
   {
-    "id": "mj-28",
+    "id": "mj-27",
     "book": "mockingjay",
     "category": "Characters",
     "difficulty": "medium",
     "question": "What happens to Buttercup after the war?",
     "options": [
       "He dies",
-      "He returns to Katniss in District 12",
+      "He stays in District 13",
       "He goes with Katniss's mother",
-      "He stays in District 13"
+      "He returns to Katniss in District 12"
     ],
-    "answerIndex": 1,
+    "answerIndex": 3,
     "explanation": "The cat is a reminder of Prim."
   },
   {
-    "id": "mj-29",
+    "id": "mj-28",
     "book": "mockingjay",
     "category": "Rebellion",
     "difficulty": "medium",
     "question": "What does Katniss demand before agreeing to be the Mockingjay?",
     "options": [
-      "A new bow",
       "A seat on the council",
       "Immunity for Peeta and the other captured victors",
-      "Her mother's release"
+      "Her mother's release",
+      "A new bow"
     ],
-    "answerIndex": 2,
+    "answerIndex": 1,
     "explanation": "Coin agrees to it."
   },
   {
-    "id": "mj-30",
+    "id": "mj-29",
     "book": "mockingjay",
     "category": "Characters",
     "difficulty": "medium",
     "question": "What does Beetee give Katniss in the Capitol mission?",
     "options": [
-      "A map",
       "A radio",
+      "A shield",
       "A bow with special arrows",
-      "A shield"
+      "A map"
     ],
     "answerIndex": 2,
     "explanation": "The arrows are designed for the mission."
   },
   {
-    "id": "mj-31",
+    "id": "mj-30",
     "book": "mockingjay",
     "category": "Characters",
     "difficulty": "hard",
     "question": "Who is the District 13 psychiatrist who treats Katniss?",
     "options": [
-      "Dr. Heavensbee",
       "Dr. Cardew",
+      "Dr. Heavensbee",
       "Dr. Aurelius",
       "Dr. Gaul"
     ],
@@ -465,18 +450,18 @@
     "explanation": "He helps her through her breakdown."
   },
   {
-    "id": "mj-32",
+    "id": "mj-31",
     "book": "mockingjay",
     "category": "Rebellion",
     "difficulty": "hard",
     "question": "What is Katniss's squad in the Capitol mission called?",
     "options": [
-      "The Mockingjays",
-      "The Star Squad",
+      "Squad Thirteen",
       "The Sparks",
-      "Squad Thirteen"
+      "The Star Squad",
+      "The Mockingjays"
     ],
-    "answerIndex": 1,
+    "answerIndex": 2,
     "explanation": "It is Squad 451."
   }
 ]

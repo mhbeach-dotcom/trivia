@@ -64,74 +64,59 @@
     "book": "sunrise",
     "category": "Characters",
     "difficulty": "medium",
-    "question": "How old is Haymitch at his Reaping?",
+    "question": "Which District 12 tribute is Madge Undersee's aunt?",
     "options": [
-      "17",
-      "14",
-      "16",
-      "15"
+      "Lucy Gray",
+      "Louella McCoy",
+      "Maysilee Donner",
+      "Lenore Dove"
     ],
     "answerIndex": 2,
-    "explanation": "He is chosen for the Quarter Quell."
+    "explanation": "She owned the mockingjay pin that later reaches Katniss."
   },
   {
     "id": "sr-06",
-    "book": "sunrise",
-    "category": "Characters",
-    "difficulty": "medium",
-    "question": "Which District 12 tribute is Madge Undersee's aunt?",
-    "options": [
-      "Maysilee Donner",
-      "Lucy Gray",
-      "Lenore Dove",
-      "Louella McCoy"
-    ],
-    "answerIndex": 0,
-    "explanation": "Maysilee is a friend of Haymitch in the arena."
-  },
-  {
-    "id": "sr-07",
     "book": "sunrise",
     "category": "Games",
     "difficulty": "medium",
     "question": "How does Haymitch win the 50th Games?",
     "options": [
-      "By poisoning water",
-      "By hiding in a cave",
       "By using the arena's force field",
-      "By fighting alone"
+      "By fighting alone",
+      "By hiding in a cave",
+      "By poisoning water"
     ],
-    "answerIndex": 2,
+    "answerIndex": 0,
     "explanation": "His use of the arena's edge angers the Capitol."
   },
   {
-    "id": "sr-08",
+    "id": "sr-07",
     "book": "sunrise",
-    "category": "Capitol",
+    "category": "Characters",
     "difficulty": "medium",
-    "question": "Who orders Haymitch's family killed after he wins?",
+    "question": "How does Lenore Dove die?",
     "options": [
-      "Dr. Gaul",
-      "Seneca Crane",
-      "President Snow",
-      "Plutarch Heavensbee"
+      "She is shot by Peacekeepers",
+      "She is killed in the arena",
+      "She eats poisoned gumdrops",
+      "She dies of illness"
     ],
     "answerIndex": 2,
-    "explanation": "Snow punishes Haymitch for defying the Capitol."
+    "explanation": "Her death after Haymitch's win devastates him."
   },
   {
-    "id": "sr-09",
+    "id": "sr-08",
     "book": "sunrise",
     "category": "Characters",
     "difficulty": "hard",
     "question": "Who is Haymitch's younger brother?",
     "options": [
       "Rory",
-      "Peeta",
+      "Gale",
       "Sid",
-      "Gale"
+      "Peeta"
     ],
     "answerIndex": 2,
-    "explanation": "Sid is killed along with their mother."
+    "explanation": "Sid is Haymitch's family in District 12."
   }
 ]
