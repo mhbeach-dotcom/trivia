@@ -1,0 +1,77 @@
+[
+  {
+    "id": "cf-01",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "What is the twist of the 75th Hunger Games, the Third Quarter Quell?",
+    "options": [
+      "Tributes are all children under 12",
+      "Tributes are chosen from existing victors",
+      "Tributes fight in teams of four",
+      "No sponsors are allowed"
+    ],
+    "answerIndex": 1,
+    "explanation": "Katniss is the only living female victor from District 12, so she is reaped, and Peeta volunteers to take Haymitch's place."
+  },
+  {
+    "id": "cf-02",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who is Katniss's stylist?",
+    "options": [
+      "Effie Trinket",
+      "Cinna",
+      "Plutarch",
+      "Portia"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cinna's designs, like the burning dress, make Katniss the Girl on Fire."
+  },
+  {
+    "id": "cf-03",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What shape is the arena in the Quarter Quell?",
+    "options": [
+      "A maze",
+      "A clock",
+      "A pyramid",
+      "A spiral"
+    ],
+    "answerIndex": 1,
+    "explanation": "Each hour of the clock has a different deadly trap."
+  },
+  {
+    "id": "cf-04",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Which District 4 victor allies with Katniss and Peeta in the arena?",
+    "options": [
+      "Finnick Odair",
+      "Beetee",
+      "Cato",
+      "Brutus"
+    ],
+    "answerIndex": 0,
+    "explanation": "Finnick fights with a trident and a net."
+  },
+  {
+    "id": "cf-05",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Which victor from District 7 strips in the elevator and fights with axes?",
+    "options": [
+      "Wiress",
+      "Johanna Mason",
+      "Enobaria",
+      "Mags"
+    ],
+    "answerIndex": 1,
+    "explanation": "Johanna is tough and sarcastic, and she turns out to be on the rebels' side."
+  }
+]

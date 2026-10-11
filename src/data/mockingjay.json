@@ -1,0 +1,62 @@
+[
+  {
+    "id": "mj-01",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "easy",
+    "question": "Which district, thought destroyed, is the rebels' headquarters?",
+    "options": [
+      "District 2",
+      "District 8",
+      "District 11",
+      "District 13"
+    ],
+    "answerIndex": 3,
+    "explanation": "The rebels live underground in District 13."
+  },
+  {
+    "id": "mj-02",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "Who is the president of District 13?",
+    "options": [
+      "Alma Coin",
+      "Plutarch Heavensbee",
+      "Paylor",
+      "Seneca Crane"
+    ],
+    "answerIndex": 0,
+    "explanation": "Coin leads the rebellion and later becomes Panem's interim president."
+  },
+  {
+    "id": "mj-03",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who does Katniss shoot with an arrow at the end?",
+    "options": [
+      "President Snow",
+      "Gale",
+      "President Coin",
+      "Haymitch"
+    ],
+    "answerIndex": 2,
+    "explanation": "Katniss turns on Coin instead of Snow, during Snow's planned execution."
+  },
+  {
+    "id": "mj-04",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What was done to Peeta in the Capitol to make him attack Katniss?",
+    "options": [
+      "He was hypnotized by a drug",
+      "He was hijacked with tracker jacker venom",
+      "He was brainwashed with a mockingjay recording",
+      "He was given nightlock"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Capitol used hijacking to twist his memories of Katniss."
+  }
+]

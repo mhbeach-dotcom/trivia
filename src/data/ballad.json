@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bs-01",
+    "book": "ballad",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Which future president is the main character of the prequel?",
+    "options": [
+      "Haymitch Abernathy",
+      "Coriolanus Snow",
+      "Sejanus Plinth",
+      "Casca Highbottom"
+    ],
+    "answerIndex": 1,
+    "explanation": "The novel follows an eighteen-year-old Coriolanus as a mentor in the 10th Games."
+  },
+  {
+    "id": "bs-02",
+    "book": "ballad",
+    "category": "Songs",
+    "difficulty": "medium",
+    "question": "Which song does Lucy Gray sing that is later important to the rebellion?",
+    "options": [
+      "The Hanging Tree",
+      "The Last Dance",
+      "Pure as the Driven Snow",
+      "Nothing You Can Take"
+    ],
+    "answerIndex": 0,
+    "explanation": "Katniss later learns and sings the song in the Mockingjay timeline."
+  }
+]

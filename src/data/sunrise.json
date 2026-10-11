@@ -1,0 +1,32 @@
+[
+  {
+    "id": "sr-01",
+    "book": "sunrise",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "Which Hunger Games does Haymitch compete in?",
+    "options": [
+      "The 10th",
+      "The 25th",
+      "The 50th",
+      "The 74th"
+    ],
+    "answerIndex": 2,
+    "explanation": "It is the second Quarter Quell, and every district sends double the usual number of tributes."
+  },
+  {
+    "id": "sr-02",
+    "book": "sunrise",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What is the name of Haymitch's girlfriend in District 12?",
+    "options": [
+      "Maysilee",
+      "Lenore Dove Baird",
+      "Lucy Gray",
+      "Sid"
+    ],
+    "answerIndex": 1,
+    "explanation": "Lenore Dove is a musician from the Covey, the community Lucy Gray belongs to."
+  }
+]

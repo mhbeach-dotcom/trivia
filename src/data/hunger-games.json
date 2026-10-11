@@ -1,0 +1,107 @@
+[
+  {
+    "id": "hg-01",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "easy",
+    "question": "Who does Katniss volunteer to replace at the Reaping?",
+    "options": [
+      "Rue",
+      "Prim",
+      "Madge",
+      "Gale"
+    ],
+    "answerIndex": 1,
+    "explanation": "Katniss takes her younger sister Primrose's place as District 12's female tribute."
+  },
+  {
+    "id": "hg-02",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "easy",
+    "question": "What is the name of Katniss's hunting partner back home?",
+    "options": [
+      "Cato",
+      "Haymitch",
+      "Gale",
+      "Finnick"
+    ],
+    "answerIndex": 2,
+    "explanation": "Gale Hawthorne hunts and trades with Katniss in the woods outside District 12."
+  },
+  {
+    "id": "hg-03",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "What poisonous berries do Katniss and Peeta threaten to eat at the end of the Games?",
+    "options": [
+      "Nightlock",
+      "Wolfsbane",
+      "Hemlock",
+      "Deathcap"
+    ],
+    "answerIndex": 0,
+    "explanation": "The threat forces the Gamemakers to let both District 12 tributes win."
+  },
+  {
+    "id": "hg-04",
+    "book": "hunger-games",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "What is the name of the District 11 girl who allies with Katniss?",
+    "options": [
+      "Clove",
+      "Glimmer",
+      "Foxface",
+      "Rue"
+    ],
+    "answerIndex": 3,
+    "explanation": "Rue is small and quick, and her death deeply affects Katniss and District 11."
+  },
+  {
+    "id": "hg-05",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What does Peeta's family do for a living?",
+    "options": [
+      "They run a bakery",
+      "They mine coal",
+      "They run an apothecary",
+      "They farm"
+    ],
+    "answerIndex": 0,
+    "explanation": "Peeta once threw burnt bread to a starving Katniss, which helped keep her family alive."
+  },
+  {
+    "id": "hg-06",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What attacks the last tributes at the Cornucopia on the final night?",
+    "options": [
+      "Tracker jackers",
+      "Wolf-like muttations",
+      "A flood",
+      "Fireballs"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Gamemakers release mutts that resemble the fallen tributes, driving Cato, Katniss, and Peeta onto the Cornucopia."
+  },
+  {
+    "id": "hg-07",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "Which Games did Haymitch Abernathy win?",
+    "options": [
+      "The 25th",
+      "The 50th",
+      "The 60th",
+      "The 74th"
+    ],
+    "answerIndex": 1,
+    "explanation": "Haymitch won the second Quarter Quell, the 50th Hunger Games."
+  }
+]
