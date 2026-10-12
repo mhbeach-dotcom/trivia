@@ -6,11 +6,12 @@ export interface Stats {
   gamesPlayed: number;
   dailyDone: string | null;
   dailyResult: string | null;
+  muted: boolean;
 }
 
 const KEY = "hg-trivia:v1";
 
-const empty = (): Stats => ({ best: {}, bestStreak: 0, gamesPlayed: 0, dailyDone: null, dailyResult: null });
+const empty = (): Stats => ({ best: {}, bestStreak: 0, gamesPlayed: 0, dailyDone: null, dailyResult: null, muted: false });
 
 export function loadStats(): Stats {
   try {

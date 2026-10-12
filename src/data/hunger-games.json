@@ -598,5 +598,410 @@
     ],
     "answerIndex": 2,
     "explanation": "Katniss scored 11, Peeta 8."
+  },
+  {
+    "id": "hg-41",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "What does District 12 produce for the Capitol?",
+    "options": [
+      "Fish",
+      "Grain",
+      "Lumber",
+      "Coal"
+    ],
+    "answerIndex": 3,
+    "explanation": "District 12 is a mining district, and mine explosions are a constant danger."
+  },
+  {
+    "id": "hg-42",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "What does District 11 produce?",
+    "options": [
+      "Textiles",
+      "Crops",
+      "Coal",
+      "Timber"
+    ],
+    "answerIndex": 1,
+    "explanation": "Rue and Thresh both come from District 11's orchards and fields."
+  },
+  {
+    "id": "hg-43",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "What are tesserae?",
+    "options": [
+      "Fancy Capitol clothes",
+      "Weapons training sessions",
+      "Travel permits",
+      "Extra food rations that add your name to the reaping"
+    ],
+    "answerIndex": 3,
+    "explanation": "A hungry family can claim grain and oil, but each tessera adds another slip with their name."
+  },
+  {
+    "id": "hg-44",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "Who mentors Katniss and Peeta?",
+    "options": [
+      "Seneca Crane",
+      "Cinna",
+      "Haymitch Abernathy",
+      "Effie Trinket"
+    ],
+    "answerIndex": 2,
+    "explanation": "Haymitch is District 12's only living victor before them."
+  },
+  {
+    "id": "hg-45",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What is Haymitch best known for in the first book?",
+    "options": [
+      "Running",
+      "Painting",
+      "Drinking",
+      "Singing"
+    ],
+    "answerIndex": 2,
+    "explanation": "He arrives at the reaping drunk, but he turns out to be a sharp strategist."
+  },
+  {
+    "id": "hg-46",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What happens to Peeta's injured leg?",
+    "options": [
+      "It is amputated and replaced with a prosthetic",
+      "It is only bruised",
+      "It heals completely",
+      "It is broken"
+    ],
+    "answerIndex": 0,
+    "explanation": "The wound from Cato's attack leaves him with a prosthetic leg."
+  },
+  {
+    "id": "hg-47",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What is Prim's full name?",
+    "options": [
+      "Poppy Everdeen",
+      "Petunia Everdeen",
+      "Primula Everdeen",
+      "Primrose Everdeen"
+    ],
+    "answerIndex": 3,
+    "explanation": "She is named for a flower, just like Katniss."
+  },
+  {
+    "id": "hg-48",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What is Gale's last name?",
+    "options": [
+      "Hawthorne",
+      "Undersee",
+      "Mellark",
+      "Abernathy"
+    ],
+    "answerIndex": 0,
+    "explanation": "Gale Hawthorne is a hunter, Katniss's best friend, and later a rebel soldier."
+  },
+  {
+    "id": "hg-49",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "easy",
+    "question": "How many districts does Panem have, not counting District 13?",
+    "options": [
+      "10",
+      "12",
+      "13",
+      "24"
+    ],
+    "answerIndex": 1,
+    "explanation": "The thirteenth district was supposedly wiped out in the Dark Days."
+  },
+  {
+    "id": "hg-50",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "What are tracker jackers?",
+    "options": [
+      "Killer birds",
+      "Poisonous snakes",
+      "Genetically engineered wasps",
+      "Wild dogs"
+    ],
+    "answerIndex": 2,
+    "explanation": "Their stings cause terrible pain and hallucinations."
+  },
+  {
+    "id": "hg-51",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "easy",
+    "question": "What is Katniss nicknamed after her flaming chariot costume?",
+    "options": [
+      "The Mockingjay",
+      "The Girl on Fire",
+      "The Tribute",
+      "The Archer"
+    ],
+    "answerIndex": 1,
+    "explanation": "Cinna's costume made the crowd remember her."
+  },
+  {
+    "id": "hg-52",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "easy",
+    "question": "What is the Cornucopia?",
+    "options": [
+      "A horn-shaped cache of supplies",
+      "A training weapon",
+      "A Capitol feast",
+      "A type of mutt"
+    ],
+    "answerIndex": 0,
+    "explanation": "Tributes sprint for the weapons and packs piled around the golden horn."
+  },
+  {
+    "id": "hg-53",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "Who runs the soup stand at the Hob?",
+    "options": [
+      "The Goat Man",
+      "Darius",
+      "Greasy Sae",
+      "Ripper"
+    ],
+    "answerIndex": 2,
+    "explanation": "Greasy Sae feeds half the Seam and later cooks for Katniss."
+  },
+  {
+    "id": "hg-54",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is an Avox?",
+    "options": [
+      "A Capitol soldier",
+      "Someone punished by having their tongue cut out",
+      "A type of mutt",
+      "A district mayor"
+    ],
+    "answerIndex": 1,
+    "explanation": "Avoxes serve the Capitol in silence."
+  },
+  {
+    "id": "hg-55",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Why does Thresh spare Katniss's life?",
+    "options": [
+      "He fears her bow",
+      "Haymitch paid him",
+      "Because of Rue",
+      "He ran out of weapons"
+    ],
+    "answerIndex": 2,
+    "explanation": "Katniss's care for Rue earns his mercy."
+  },
+  {
+    "id": "hg-56",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Who kills Marvel, the tribute who speared Rue?",
+    "options": [
+      "Peeta",
+      "Cato",
+      "Katniss",
+      "Thresh"
+    ],
+    "answerIndex": 2,
+    "explanation": "Her arrow finds him moments after Rue is hit."
+  },
+  {
+    "id": "hg-57",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What does 'Panem' mean?",
+    "options": [
+      "Power",
+      "Bread, in Latin",
+      "Peace",
+      "Plenty"
+    ],
+    "answerIndex": 1,
+    "explanation": "It comes from the Roman phrase 'bread and circuses'."
+  },
+  {
+    "id": "hg-58",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What were the Dark Days?",
+    "options": [
+      "The first Hunger Games",
+      "A famine",
+      "A plague",
+      "The failed rebellion that led to the Games"
+    ],
+    "answerIndex": 3,
+    "explanation": "The Capitol created the Games as punishment after the districts rose up."
+  },
+  {
+    "id": "hg-59",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is District 5's industry?",
+    "options": [
+      "Transportation",
+      "Power and electricity",
+      "Textiles",
+      "Livestock"
+    ],
+    "answerIndex": 1,
+    "explanation": "Foxface's district keeps the lights on."
+  },
+  {
+    "id": "hg-60",
+    "book": "hunger-games",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "Mockingjays are the offspring of jabberjays and what?",
+    "options": [
+      "Finches",
+      "Mockingbirds",
+      "Crows",
+      "Sparrows"
+    ],
+    "answerIndex": 1,
+    "explanation": "The hybrids kept the gift for mimicry."
+  },
+  {
+    "id": "hg-61",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What are mutts, or muttations?",
+    "options": [
+      "Capitol soldiers",
+      "Genetically engineered creatures",
+      "Ordinary wild animals",
+      "Robots"
+    ],
+    "answerIndex": 1,
+    "explanation": "The Capitol breeds living weapons."
+  },
+  {
+    "id": "hg-62",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What is disturbing about the wolf mutts in the 74th Games?",
+    "options": [
+      "They breathe fire",
+      "They have the dead tributes' eyes",
+      "They can talk",
+      "They are invisible"
+    ],
+    "answerIndex": 1,
+    "explanation": "Each beast seems to carry a fallen tribute's features."
+  },
+  {
+    "id": "hg-63",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Why does Peeta join the Career pack?",
+    "options": [
+      "He wants to win alone",
+      "He hates Katniss",
+      "For the food",
+      "To keep them away from Katniss"
+    ],
+    "answerIndex": 3,
+    "explanation": "Katniss assumes it is a betrayal."
+  },
+  {
+    "id": "hg-64",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "What does Katniss need from the feast at the Cornucopia?",
+    "options": [
+      "Water",
+      "A new bow",
+      "Medicine for Peeta",
+      "Food"
+    ],
+    "answerIndex": 2,
+    "explanation": "Peeta's leg wound is infected."
+  },
+  {
+    "id": "hg-65",
+    "book": "hunger-games",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "How does Cato die?",
+    "options": [
+      "He starves",
+      "Katniss ends his suffering with an arrow",
+      "Peeta shoots him",
+      "Thresh kills him"
+    ],
+    "answerIndex": 1,
+    "explanation": "The wolf mutts maul him through the night."
+  },
+  {
+    "id": "hg-66",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "Before Katniss and Peeta, how many living victors did District 12 have?",
+    "options": [
+      "None",
+      "Two",
+      "One",
+      "Three"
+    ],
+    "answerIndex": 2,
+    "explanation": "Haymitch was District 12's only living victor."
+  },
+  {
+    "id": "hg-67",
+    "book": "hunger-games",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "How many times is Gale's name entered in the reaping at age 18?",
+    "options": [
+      "20",
+      "48",
+      "42",
+      "36"
+    ],
+    "answerIndex": 2,
+    "explanation": "His family relies on tesserae."
   }
 ]

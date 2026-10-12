@@ -463,5 +463,170 @@
     ],
     "answerIndex": 2,
     "explanation": "It is Squad 451."
+  },
+  {
+    "id": "mj-32",
+    "book": "mockingjay",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is District 8's industry?",
+    "options": [
+      "Fishing",
+      "Grain",
+      "Lumber",
+      "Textiles"
+    ],
+    "answerIndex": 3,
+    "explanation": "District 8 makes the Capitol's clothing and later rises up."
+  },
+  {
+    "id": "mj-33",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "medium",
+    "question": "What is District 13's industry in the books?",
+    "options": [
+      "Farming",
+      "Weapons",
+      "Graphite mining",
+      "Textiles"
+    ],
+    "answerIndex": 2,
+    "explanation": "The films changed it, but the books say graphite."
+  },
+  {
+    "id": "mj-34",
+    "book": "mockingjay",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What does the mockingjay come to symbolize?",
+    "options": [
+      "Wealth",
+      "Good luck",
+      "Rebellion and defiance",
+      "The Capitol's power"
+    ],
+    "answerIndex": 2,
+    "explanation": "A pin becomes the face of the uprising."
+  },
+  {
+    "id": "mj-35",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What is 'the Nut'?",
+    "options": [
+      "A weapon",
+      "A district",
+      "District 2's mountain fortress",
+      "A Capitol prison"
+    ],
+    "answerIndex": 2,
+    "explanation": "The rebels take it in a costly attack."
+  },
+  {
+    "id": "mj-36",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "How does Katniss vote on Coin's proposed final Hunger Games?",
+    "options": [
+      "She isn't asked",
+      "No",
+      "Yes",
+      "She abstains"
+    ],
+    "answerIndex": 2,
+    "explanation": "She votes yes to win Coin's trust before turning on her."
+  },
+  {
+    "id": "mj-37",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "How does President Snow die?",
+    "options": [
+      "Old age",
+      "Katniss's arrow",
+      "Choking as the crowd surges",
+      "Poison"
+    ],
+    "answerIndex": 2,
+    "explanation": "He dies in the chaos after Coin is shot."
+  },
+  {
+    "id": "mj-38",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What flowers does Peeta plant when they return to District 12?",
+    "options": [
+      "Roses",
+      "Primroses",
+      "Nightlock",
+      "Daisies"
+    ],
+    "answerIndex": 1,
+    "explanation": "They remember Prim."
+  },
+  {
+    "id": "mj-39",
+    "book": "mockingjay",
+    "category": "Characters",
+    "difficulty": "hard",
+    "question": "What helps Katniss with her nightmares at the end?",
+    "options": [
+      "Leaving District 12",
+      "Listing every good act she can remember",
+      "Medicine",
+      "Forgetting"
+    ],
+    "answerIndex": 1,
+    "explanation": "It becomes a game that helps her sleep."
+  },
+  {
+    "id": "mj-40",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "Which district is Commander Paylor from?",
+    "options": [
+      "District 8",
+      "District 7",
+      "District 2",
+      "District 11"
+    ],
+    "answerIndex": 0,
+    "explanation": "The textile district rose up first."
+  },
+  {
+    "id": "mj-41",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "Which cameraman is an Avox?",
+    "options": [
+      "Cressida",
+      "Castor",
+      "Messalla",
+      "Pollux"
+    ],
+    "answerIndex": 3,
+    "explanation": "Pollux's brother Castor speaks for him."
+  },
+  {
+    "id": "mj-42",
+    "book": "mockingjay",
+    "category": "Rebellion",
+    "difficulty": "hard",
+    "question": "What are 'pods' in the Capitol?",
+    "options": [
+      "Food rations",
+      "Bombs",
+      "Hidden street traps",
+      "Cameras"
+    ],
+    "answerIndex": 2,
+    "explanation": "The streets are laced with lethal traps."
   }
 ]

@@ -1,4 +1,4 @@
-const CACHE = "hg-trivia-v1";
+const CACHE = "hg-trivia-v2";
 
 self.addEventListener("install", (e) => {
   e.waitUntil(caches.open(CACHE).then((c) => c.addAll(["./", "manifest.webmanifest", "icon.svg"])));

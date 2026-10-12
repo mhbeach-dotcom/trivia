@@ -1,6 +1,6 @@
 export type BookId = "hunger-games" | "catching-fire" | "mockingjay" | "ballad" | "sunrise";
 export type Difficulty = "easy" | "medium" | "hard";
-export type Mode = "quick" | "survival" | "daily";
+export type Mode = "quick" | "survival" | "marathon" | "daily";
 
 export interface Question {
   id: string;

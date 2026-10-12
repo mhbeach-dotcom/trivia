@@ -508,5 +508,230 @@
     ],
     "answerIndex": 0,
     "explanation": "Beetee uses this trap in the plan."
+  },
+  {
+    "id": "cf-35",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "easy",
+    "question": "Which district is Finnick Odair from?",
+    "options": [
+      "District 7",
+      "District 11",
+      "District 2",
+      "District 4"
+    ],
+    "answerIndex": 3,
+    "explanation": "District 4 is the fishing district."
+  },
+  {
+    "id": "cf-36",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "easy",
+    "question": "Which district is Johanna Mason from?",
+    "options": [
+      "District 4",
+      "District 7",
+      "District 3",
+      "District 11"
+    ],
+    "answerIndex": 1,
+    "explanation": "District 7 is the lumber district, and Johanna fights with an axe."
+  },
+  {
+    "id": "cf-37",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "Who was Haymitch's ally in his own Games?",
+    "options": [
+      "Maysilee Donner",
+      "Wiress",
+      "Beetee",
+      "Johanna Mason"
+    ],
+    "answerIndex": 0,
+    "explanation": "Maysilee was Madge Undersee's aunt."
+  },
+  {
+    "id": "cf-38",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is District 3's industry?",
+    "options": [
+      "Masonry",
+      "Textiles",
+      "Technology",
+      "Grain"
+    ],
+    "answerIndex": 2,
+    "explanation": "Beetee and Wiress come from the tech district."
+  },
+  {
+    "id": "cf-39",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What is District 7's industry?",
+    "options": [
+      "Lumber",
+      "Power",
+      "Mining",
+      "Fishing"
+    ],
+    "answerIndex": 0,
+    "explanation": "Johanna's axe skills come from the timber yards."
+  },
+  {
+    "id": "cf-40",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "medium",
+    "question": "What are jabberjays?",
+    "options": [
+      "Messenger hawks",
+      "Ordinary songbirds",
+      "Birds engineered to repeat human speech",
+      "Arena mutts"
+    ],
+    "answerIndex": 2,
+    "explanation": "The Capitol used them to spy on rebels."
+  },
+  {
+    "id": "cf-41",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "medium",
+    "question": "What secret is Plutarch Heavensbee hiding?",
+    "options": [
+      "He is a rebel leader",
+      "He is a Peacekeeper",
+      "He is a spy for Snow",
+      "He is a former victor"
+    ],
+    "answerIndex": 0,
+    "explanation": "He planned Katniss's rescue from the Quell arena."
+  },
+  {
+    "id": "cf-42",
+    "book": "catching-fire",
+    "category": "Characters",
+    "difficulty": "medium",
+    "question": "What happens to Cinna before the Quarter Quell begins?",
+    "options": [
+      "He escapes",
+      "He is promoted",
+      "Peacekeepers beat him as Katniss watches",
+      "Nothing"
+    ],
+    "answerIndex": 2,
+    "explanation": "It is punishment for the mockingjay dress."
+  },
+  {
+    "id": "cf-43",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "medium",
+    "question": "At what age did Finnick win his Games?",
+    "options": [
+      "12",
+      "16",
+      "18",
+      "14"
+    ],
+    "answerIndex": 3,
+    "explanation": "He was the youngest victor ever."
+  },
+  {
+    "id": "cf-44",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "How does Mags die?",
+    "options": [
+      "She drowns",
+      "She is killed by mutts",
+      "She walks into the poison fog",
+      "She falls from a tree"
+    ],
+    "answerIndex": 2,
+    "explanation": "She sacrifices herself so Finnick can carry Peeta."
+  },
+  {
+    "id": "cf-45",
+    "book": "catching-fire",
+    "category": "Games",
+    "difficulty": "medium",
+    "question": "Who saves Peeta from the monkey mutts?",
+    "options": [
+      "The female Morphling",
+      "Johanna",
+      "Finnick",
+      "Katniss"
+    ],
+    "answerIndex": 0,
+    "explanation": "The District 6 tribute throws herself in front of him."
+  },
+  {
+    "id": "cf-46",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Who won the 70th Hunger Games?",
+    "options": [
+      "Finnick Odair",
+      "Enobaria",
+      "Annie Cresta",
+      "Johanna Mason"
+    ],
+    "answerIndex": 2,
+    "explanation": "An earthquake broke the arena's dam and the swimmer survived."
+  },
+  {
+    "id": "cf-47",
+    "book": "catching-fire",
+    "category": "Tributes",
+    "difficulty": "hard",
+    "question": "Who won the 71st Hunger Games?",
+    "options": [
+      "Gloss",
+      "Brutus",
+      "Cashmere",
+      "Johanna Mason"
+    ],
+    "answerIndex": 3,
+    "explanation": "She played weak and helpless until she was ready to strike."
+  },
+  {
+    "id": "cf-48",
+    "book": "catching-fire",
+    "category": "Culture",
+    "difficulty": "hard",
+    "question": "Which district are the Morphlings from?",
+    "options": [
+      "District 5",
+      "District 9",
+      "District 6",
+      "District 8"
+    ],
+    "answerIndex": 2,
+    "explanation": "District 6 is the transportation district."
+  },
+  {
+    "id": "cf-49",
+    "book": "catching-fire",
+    "category": "Capitol",
+    "difficulty": "hard",
+    "question": "Who is Darius?",
+    "options": [
+      "A tribute",
+      "A Gamemaker",
+      "A Peacekeeper who becomes an Avox",
+      "A rebel"
+    ],
+    "answerIndex": 2,
+    "explanation": "He is punished after trying to help Gale."
   }
 ]

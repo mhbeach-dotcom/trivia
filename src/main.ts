@@ -1,7 +1,7 @@
 import "./style.css";
-import { showHome } from "./ui/screens";
+import { initApp } from "./ui/app";
 
-showHome();
+initApp();
 
 if ("serviceWorker" in navigator && import.meta.env.PROD) {
   navigator.serviceWorker.register("sw.js").catch(() => {});

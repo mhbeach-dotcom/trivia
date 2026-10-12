@@ -3,14 +3,153 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-  <meta name="theme-color" content="#120c08" />
-  <meta name="description" content="Hunger Games book trivia. May contain spoilers for every book." />
+  <meta name="theme-color" content="#0d0a07" />
+  <meta name="description" content="Arena Trivia: Hunger Games book trivia across all five books. May contain spoilers." />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="icon" href="icon.svg" type="image/svg+xml" />
-  <title>Hunger Games Trivia</title>
+  <title>Arena Trivia</title>
 </head>
 <body>
-  <div id="app"></div>
+  <div class="embers" id="embers" aria-hidden="true"></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <div id="flash" aria-hidden="true"></div>
+
+  <div id="app">
+    <header class="top">
+      <div class="brand">
+        <svg class="emblem" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="5"/>
+          <path d="M50 20 C41 32 37 43 39 55 L50 49 L61 55 C63 43 59 32 50 20 Z" fill="currentColor"/>
+          <path d="M18 56 C30 50 39 52 45 58 C35 58 26 60 18 56 Z" fill="currentColor"/>
+          <path d="M82 56 C70 50 61 52 55 58 C65 58 74 60 82 56 Z" fill="currentColor"/>
+          <path d="M50 49 L50 76" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+          <path d="M50 76 L42 85 M50 76 L58 85" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+        </svg>
+        <span class="brand-name">Arena Trivia</span>
+      </div>
+      <button id="muteBtn" type="button" aria-label="Toggle sound">🔊</button>
+    </header>
+
+    <!-- START -->
+    <section id="screen-start" class="screen active">
+      <div class="hero">
+        <svg class="big-emblem" viewBox="0 0 100 100" aria-hidden="true">
+          <circle cx="50" cy="50" r="45" fill="none" stroke="currentColor" stroke-width="4"/>
+          <path d="M50 20 C41 32 37 43 39 55 L50 49 L61 55 C63 43 59 32 50 20 Z" fill="currentColor"/>
+          <path d="M18 56 C30 50 39 52 45 58 C35 58 26 60 18 56 Z" fill="currentColor"/>
+          <path d="M82 56 C70 50 61 52 55 58 C65 58 74 60 82 56 Z" fill="currentColor"/>
+          <path d="M50 49 L50 76" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+          <path d="M50 76 L42 85 M50 76 L58 85" stroke="currentColor" stroke-width="4" stroke-linecap="round"/>
+        </svg>
+        <div class="hero-text">
+          <h1>ARENA TRIVIA</h1>
+          <div class="sub">A Hunger Games Challenge</div>
+          <p class="tag"><span id="qTotal">180+</span> questions across all five books, spoilers included. Lifelines, streaks, and speed bonuses. May the odds be ever in your favor.</p>
+        </div>
+      </div>
+
+      <div class="modes" id="modes"></div>
+
+      <div class="books">
+        <h2>Books <small>(Quick Play, Survival, Marathon)</small></h2>
+        <div class="chips" id="chips"></div>
+      </div>
+
+      <div class="bests-row">
+        <span class="best-chip">Best streak<b id="best-streak">0</b></span>
+        <span class="best-chip">Games played<b id="games-played">0</b></span>
+      </div>
+
+      <details class="howto">
+        <summary>How to play</summary>
+        <ul>
+          <li><b>Points:</b> Easy 100 · Medium 200 · Hard 300, plus speed and streak bonuses.</li>
+          <li><b>Lifelines:</b> 50/50 removes two wrong answers · Skip moves on · Second Chance forgives one miss.</li>
+          <li><b>Survival:</b> wrong answers cost a heart. It starts easy and ramps up to hard.</li>
+          <li><b>Keys:</b> press 1–4 to answer, Enter for next.</li>
+        </ul>
+      </details>
+      <button class="link" id="transferBtn" type="button">Export / import progress</button>
+      <div class="foot">Scores save on this device</div>
+    </section>
+
+    <!-- GAME -->
+    <section id="screen-game" class="screen">
+      <div class="game-grid">
+        <div class="game-left">
+          <div class="hud">
+            <div>
+              <div class="mode-label" id="hudMode">Quick Play</div>
+              <div class="score"><span id="hudScore">0</span></div>
+            </div>
+            <div class="hearts" id="hudHearts" hidden></div>
+            <div class="streak" id="hudStreak"><span class="flame">🔥</span><span id="streakNum">0</span></div>
+          </div>
+          <div class="timer-row" id="timerRow">
+            <div class="timer-wrap"><div id="timerFill"></div></div>
+            <span class="time" id="timeText">20</span>
+          </div>
+          <div class="progress" id="progress"><i id="progressFill"></i></div>
+          <div class="qmeta">
+            <span class="diff-badge diff-easy" id="diffBadge">Easy</span>
+            <span id="qCount">Question 1 of 10</span>
+          </div>
+          <div class="qcard" id="qcard">
+            <p class="qtext" id="qText"></p>
+          </div>
+          <div class="intel" id="intel" aria-live="polite"></div>
+        </div>
+        <div class="game-right">
+          <div class="opts" id="opts"></div>
+          <div class="lifelines">
+            <button class="life" id="lifeFifty" type="button"><span class="ico">✂️</span>50/50<span class="n" id="nFifty">2 left</span></button>
+            <button class="life" id="lifeSkip" type="button"><span class="ico">⏭️</span>Skip<span class="n" id="nSkip">2 left</span></button>
+            <button class="life" id="lifeSecond" type="button"><span class="ico">🛡️</span>2nd Chance<span class="n" id="nSecond">1 left</span></button>
+          </div>
+          <button id="nextBtn" type="button">NEXT →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- RESULTS -->
+    <section id="screen-results" class="screen">
+      <div class="results-card">
+        <div class="res-head">
+          <div class="trophy" id="resTrophy">🏆</div>
+          <h2 id="resTitle">VICTOR!</h2>
+          <div class="rank" id="resRank">Mockingjay</div>
+          <div id="resNewBest"></div>
+          <p class="emoji" id="resEmoji"></p>
+        </div>
+        <div class="res-body">
+          <div class="stats">
+            <div class="stat"><div class="v gold" id="resScore">0</div><div class="l">Score</div></div>
+            <div class="stat"><div class="v" id="resAcc">0%</div><div class="l">Accuracy</div></div>
+            <div class="stat"><div class="v" id="resCorrect">0/0</div><div class="l">Correct</div></div>
+            <div class="stat"><div class="v" id="resStreak">0</div><div class="l">Best streak</div></div>
+          </div>
+          <div class="btn-row">
+            <button class="btn primary" id="againBtn" type="button">PLAY AGAIN</button>
+            <button class="btn share" id="shareBtn" type="button">SHARE SCORE</button>
+            <button class="btn ghost" id="menuBtn" type="button">CHANGE MODE</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TRANSFER -->
+    <section id="screen-transfer" class="screen">
+      <div class="results-card transfer">
+        <h2>Progress</h2>
+        <p class="muted" id="transferMsg">Copy this text to move your progress to another device, or paste saved text and tap Import.</p>
+        <textarea id="transferText" rows="6" aria-label="Progress data"></textarea>
+        <div class="btn-row">
+          <button class="btn primary" id="importBtn" type="button">IMPORT</button>
+          <button class="btn ghost" id="transferBack" type="button">BACK</button>
+        </div>
+      </div>
+    </section>
+  </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
 </html>
