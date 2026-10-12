@@ -4,6 +4,8 @@ import { ALL_QUESTIONS } from "../game/data";
 import { basePoints } from "../game/scoring";
 import { exportStats, importStats, loadStats, saveStats } from "../storage";
 import { sfx, setMuted } from "./sound";
+import { showScreen } from "./screens";
+import { initMultiplayer, openMultiplayer, resumeMultiplayer } from "../mp/ui";
 import { burst, buzz, confetti, countUp, floatText, flash, initFx, reducedMotion, replay } from "./fx";
 
 const $ = <T extends HTMLElement = HTMLElement>(id: string): T => document.getElementById(id) as T;
@@ -19,15 +21,6 @@ let secondsLeft = 0;
 let lastShare = "";
 let lastMode: Mode = "quick";
 let muted = false;
-
-/* ---------- screens ---------- */
-function showScreen(id: string): void {
-  document.querySelectorAll<HTMLElement>(".screen").forEach((s) => s.classList.remove("active"));
-  const el = $(id);
-  el.classList.add("active");
-  replay(el, "enter");
-  window.scrollTo(0, 0);
-}
 
 /* ---------- start screen ---------- */
 function renderModes(): void {
@@ -55,6 +48,17 @@ function renderModes(): void {
     });
     box.append(card);
   });
+  const mp = document.createElement("button");
+  mp.type = "button";
+  mp.className = "mode-card mode-mp";
+  mp.style.setProperty("--i", String(MODES.length));
+  mp.innerHTML = '<span class="mode-icon">👥</span><span class="mode-text"><h3>Multiplayer</h3><p>Race friends in real time with a join code</p></span>';
+  mp.addEventListener("click", (e) => {
+    ripple(mp, e);
+    sfx("click");
+    setTimeout(() => openMultiplayer(), reducedMotion() ? 0 : 140);
+  });
+  box.append(mp);
   $("best-streak").textContent = String(stats.bestStreak);
   $("games-played").textContent = String(stats.gamesPlayed);
   $("qTotal").textContent = String(ALL_QUESTIONS.length);
@@ -410,6 +414,13 @@ export function initApp(): void {
 
   renderModes();
   renderChips();
+  initMultiplayer({
+    goHome: () => {
+      renderModes();
+      showScreen("screen-start");
+    },
+  });
+  void resumeMultiplayer();
 
   $("lifeFifty").addEventListener("click", () => {
     if (!game) return;

@@ -26,6 +26,9 @@ jobs:
       - run: npm ci
       - run: npm test
       - run: npm run build
+        env:
+          # Address of the multiplayer server (repo Settings > Secrets and variables > Actions > Variables > MP_URL).
+          VITE_MP_URL: ${{ vars.MP_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist

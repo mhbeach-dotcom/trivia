@@ -149,6 +149,105 @@
         </div>
       </div>
     </section>
+
+    <!-- MULTIPLAYER: entry -->
+    <section id="screen-mp-entry" class="screen">
+      <div class="results-card mp-card">
+        <h2>Multiplayer</h2>
+        <p class="muted">Race friends on the same questions at the same time. Everyone needs the game open on their own phone.</p>
+        <label class="field">Your name
+          <input id="mpName" maxlength="16" autocomplete="nickname" placeholder="Katniss" />
+        </label>
+        <div class="btn-row">
+          <button class="btn primary" id="mpCreate" type="button">CREATE A ROOM</button>
+          <div class="join-row">
+            <input id="mpCode" maxlength="4" placeholder="CODE" autocapitalize="characters" autocomplete="off" autocorrect="off" spellcheck="false" aria-label="Room code" />
+            <button class="btn ghost" id="mpJoin" type="button">JOIN</button>
+          </div>
+          <button class="btn ghost" id="mpBack" type="button">BACK</button>
+        </div>
+        <p class="muted msg" id="mpMsg" role="status"></p>
+      </div>
+    </section>
+
+    <!-- MULTIPLAYER: lobby -->
+    <section id="screen-mp-lobby" class="screen">
+      <div class="lobby-grid">
+        <div class="lobby-left">
+          <div class="room-code-card">
+            <div class="muted">ROOM CODE</div>
+            <div class="room-code" id="mpRoomCode" aria-live="polite">----</div>
+            <div class="btn-row two">
+              <button class="btn share" id="mpShare" type="button">SHARE LINK</button>
+              <button class="btn ghost" id="mpCopy" type="button">COPY CODE</button>
+            </div>
+          </div>
+          <h3 class="lobby-h">Players <span id="mpCount"></span></h3>
+          <ul class="players" id="mpPlayers"></ul>
+        </div>
+        <div class="lobby-right">
+          <div class="settings" id="mpSettings"></div>
+          <button class="btn primary" id="mpStart" type="button">START GAME</button>
+          <p class="muted msg" id="mpLobbyMsg" role="status"></p>
+          <button class="link" id="mpLeave" type="button">Leave room</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MULTIPLAYER: game -->
+    <section id="screen-mp-game" class="screen">
+      <div class="game-grid">
+        <div class="game-left">
+          <div class="hud">
+            <div>
+              <div class="mode-label" id="mpHudLabel">Room ABCD</div>
+              <div class="score"><span id="mpScore">0</span></div>
+            </div>
+            <div class="rank-pill" id="mpRank">#1</div>
+            <div class="streak" id="mpStreak"><span class="flame">🔥</span><span id="mpStreakNum">0</span></div>
+          </div>
+          <div class="timer-row">
+            <div class="timer-wrap"><div id="mpTimerFill"></div></div>
+            <span class="time" id="mpTime">20</span>
+          </div>
+          <div class="progress"><i id="mpProgress"></i></div>
+          <div class="qmeta">
+            <span class="diff-badge diff-easy" id="mpBadge">Easy</span>
+            <span id="mpQCount">Question 1 of 10</span>
+          </div>
+          <div class="qcard" id="mpCard"><p class="qtext" id="mpQText"></p></div>
+          <div class="intel" id="mpIntel" aria-live="polite"></div>
+        </div>
+        <div class="game-right">
+          <div class="opts" id="mpOpts"></div>
+          <div class="mp-status" id="mpStatus" aria-live="polite"></div>
+          <div class="reveal-bar" id="mpRevealBar" hidden><i></i></div>
+          <button id="mpNext" type="button" hidden>NEXT →</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- MULTIPLAYER: final -->
+    <section id="screen-mp-final" class="screen">
+      <div class="results-card">
+        <div class="res-head">
+          <div class="trophy" id="mpTrophy">🏆</div>
+          <h2 id="mpFinalTitle">WINNER</h2>
+          <div class="rank" id="mpFinalSub"></div>
+          <div class="podium" id="mpPodium"></div>
+        </div>
+        <div class="res-body">
+          <ol class="ranking" id="mpRanking"></ol>
+          <div class="btn-row">
+            <button class="btn primary" id="mpRematch" type="button">PLAY AGAIN</button>
+            <button class="btn ghost" id="mpFinalLeave" type="button">LEAVE ROOM</button>
+          </div>
+          <p class="muted msg" id="mpFinalMsg" role="status"></p>
+        </div>
+      </div>
+    </section>
+
+    <div class="conn-banner" id="mpBanner" hidden>Reconnecting…</div>
   </div>
   <script type="module" src="/src/main.ts"></script>
 </body>
